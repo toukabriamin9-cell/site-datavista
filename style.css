@@ -1,0 +1,65 @@
+/* style.css : la mise en forme (couleurs, polices) de toutes les pages */
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f7fb;
+    color: #222222;
+}
+
+nav {
+    background-color: #003366;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #003366;
+}
+
+h2 {
+    color: #0066cc;
+}
+
+.slogan {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #0066cc;
+    color: white;
+}
+
+.note {
+    font-size: 0.9em;
+    color: #555555;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.8em;
+    color: #777777;
+    text-align: center;
+}
